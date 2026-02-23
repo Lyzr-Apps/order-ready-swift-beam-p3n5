@@ -1,0 +1,22 @@
+{
+  "agent_name": "Order Dispatch Agent",
+  "agent_id": "699ba20ff7b4833211504832",
+  "description": "Receives order details (customer name, phone, arrival time, selected items with quantities, total price, special instructions, order ID) and formats a clean, structured WhatsApp message summarizing the order for the restaurant",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "whatsapp_message": "string",
+    "order_id": "string",
+    "total_price": "number",
+    "customer_name": "string",
+    "arrival_time": "string"
+  },
+  "example_response": {
+    "whatsapp_message": "The formatted WhatsApp message ready to be sent",
+    "order_id": "The order ID for reference",
+    "total_price": 0,
+    "customer_name": "The customer's name",
+    "arrival_time": "The expected arrival time"
+  }
+}

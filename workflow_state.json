@@ -1,0 +1,9 @@
+{
+  "agents": {
+    "order_dispatch_agent": {
+      "agent_id": "699ba20ff7b4833211504832",
+      "name": "Order Dispatch Agent",
+      "type": "single"
+    }
+  }
+}

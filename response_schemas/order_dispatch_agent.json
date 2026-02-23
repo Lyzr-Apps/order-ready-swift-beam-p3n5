@@ -1,0 +1,13 @@
+{
+  "agent_name": "Order Dispatch Agent",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "whatsapp_message": "string",
+    "order_id": "string",
+    "total_price": "number",
+    "customer_name": "string",
+    "arrival_time": "string"
+  }
+}

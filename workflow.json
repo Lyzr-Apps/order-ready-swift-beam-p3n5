@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {"id": "input_node", "type": "Input", "label": "Customer Order Form", "nodeCategory": "input"},
+    {"id": "order_dispatch_agent", "type": "Agent", "label": "Order Dispatch Agent", "nodeCategory": "agent"},
+    {"id": "output_node", "type": "Output", "label": "Order Confirmation", "nodeCategory": "end"}
+  ],
+  "edges": [
+    {"source": "input_node", "target": "order_dispatch_agent"},
+    {"source": "order_dispatch_agent", "target": "output_node"}
+  ]
+}
